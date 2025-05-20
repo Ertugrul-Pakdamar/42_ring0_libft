@@ -27,10 +27,10 @@ ft_%:
 	gcc $(FLAG) $(SRC) tests/$@_test.c -Iincludes
 
 testp1: re
-	bash ../Libftest/grademe.sh -l -p2 -b
+	bash ../Libftest/grademe.sh -p2 -b
 
 testp2: re
-	bash ../Libftest/grademe.sh -l -p1 -b
+	bash ../Libftest/grademe.sh -p1 -b
 # -------------------------------------------
 
 .PHONY: all bonus clean fclean re
