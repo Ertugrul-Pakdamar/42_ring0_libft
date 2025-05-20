@@ -12,9 +12,6 @@ $(NAME):
 	ar rc $(NAME) *.o
 	ar rc libft.so *.o
 	mv *.o srcs/
-bonus:
-	gcc $(FLAG) -c $(BONUS)
-	ar rc $(NAME) *.o
 so:
 	$(CC) -nostartfiles -fPIC $(FLAG) $(SRC)
 	gcc -nostartfiles -shared -o libft.so $(OBJ)
@@ -24,6 +21,7 @@ fclean: clean
 	/bin/rm -f $(NAME) libft.so a.out
 re: fclean all
 
+# -------------------------------------------
 # For Tests
 ft_%:
 	gcc $(FLAG) $(SRC) tests/$@_test.c
@@ -31,8 +29,8 @@ ft_%:
 testp1: re
 	bash ../Libftest/grademe.sh -l -p2 -b
 
-
 testp2: re
 	bash ../Libftest/grademe.sh -l -p1 -b
+# -------------------------------------------
 
 .PHONY: all bonus clean fclean re
