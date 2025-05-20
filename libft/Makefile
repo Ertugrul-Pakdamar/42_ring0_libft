@@ -8,12 +8,12 @@ OBJ = $(SRC:.c=.o)
 all: $(NAME)
 
 $(NAME):
-	gcc $(FLAG) -c $(SRC)
+	gcc $(FLAG) -c $(SRC) -Iincludes
 	ar rc $(NAME) *.o
 	ar rc libft.so *.o
 	mv *.o srcs/
 so:
-	$(CC) -nostartfiles -fPIC $(FLAG) $(SRC)
+	$(CC) -nostartfiles -fPIC $(FLAG) $(SRC) -Iincludes
 	gcc -nostartfiles -shared -o libft.so $(OBJ)
 clean:
 	/bin/rm -f  srcs/*.o *.o
@@ -24,7 +24,7 @@ re: fclean all
 # -------------------------------------------
 # For Tests
 ft_%:
-	gcc $(FLAG) $(SRC) tests/$@_test.c
+	gcc $(FLAG) $(SRC) tests/$@_test.c -Iincludes
 
 testp1: re
 	bash ../Libftest/grademe.sh -l -p2 -b

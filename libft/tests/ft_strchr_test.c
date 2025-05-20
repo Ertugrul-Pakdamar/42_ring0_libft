@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 09:54:50 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/15 10:00:17 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:20:52 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 #include <stdio.h>
 
 int	main(int ac, char **av)

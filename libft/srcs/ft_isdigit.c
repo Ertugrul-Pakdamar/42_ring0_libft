@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 08:49:03 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/15 14:17:57 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:15:09 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 int	ft_isdigit(int c)
 {

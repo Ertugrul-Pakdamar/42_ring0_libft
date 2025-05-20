@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/16 08:46:59 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/16 10:25:27 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:17:10 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

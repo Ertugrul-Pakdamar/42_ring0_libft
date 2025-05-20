@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 08:57:17 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/20 09:15:56 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:20:56 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 #include <stdio.h>
 
 static void	f(unsigned int i, char *s)

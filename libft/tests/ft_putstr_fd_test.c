@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 09:45:24 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/20 09:49:09 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:20:41 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 #include <fcntl.h>
 #include <stdio.h>
 

@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 11:07:24 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/16 08:34:16 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:16:55 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 int	is_match(char *str, char *to_find, int match_index)
 {

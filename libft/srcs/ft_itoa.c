@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/18 14:42:05 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/19 19:35:15 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:15:19 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 static int	digits_count(int n)
 {

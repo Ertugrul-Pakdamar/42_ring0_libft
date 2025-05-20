@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/14 10:48:15 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/14 12:32:48 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:15:28 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 int	ft_memcmp(void *s1, void *s2, size_t n)
 {

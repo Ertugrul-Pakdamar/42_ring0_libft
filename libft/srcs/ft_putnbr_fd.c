@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 09:51:58 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/20 09:55:23 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:15:57 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 void	ft_putnbr_fd(int i, int fd)
 {

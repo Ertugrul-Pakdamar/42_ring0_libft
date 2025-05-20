@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 10:01:21 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/13 13:51:33 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:15:35 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 void	*ft_memcpy(void *dest, void *src, size_t n)
 {

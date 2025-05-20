@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 10:02:11 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/18 14:32:28 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:16:59 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 char	*ft_strrchr(char *s, int c)
 {

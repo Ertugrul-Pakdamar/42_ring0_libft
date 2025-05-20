@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 09:34:33 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/16 08:29:25 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:16:31 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 static void	ft_len_calc(unsigned int *result, int index1, int size)
 {

@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 11:48:11 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/15 11:52:49 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:16:16 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 char	*ft_strdup(char *src)
 {

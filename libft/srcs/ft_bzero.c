@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 14:06:02 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/15 14:06:03 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:14:44 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {

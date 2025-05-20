@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/18 13:42:16 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/18 14:42:20 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:16:06 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 static int	count_strs(char const *s, char c)
 {

@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 09:40:45 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/15 09:41:16 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:17:16 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 char	ft_tolower(char c)
 {

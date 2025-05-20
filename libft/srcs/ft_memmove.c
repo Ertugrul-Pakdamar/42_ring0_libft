@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 11:38:52 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/14 10:20:52 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/20 10:15:39 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 void	*ft_memmove(void *dest, void *src, size_t n)
 {
