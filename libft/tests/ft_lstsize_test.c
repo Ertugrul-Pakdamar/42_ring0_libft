@@ -1,28 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
+/*   ft_lstsize_test.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/21 09:17:42 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/21 09:25:36 by epakdama         ###   ########.fr       */
+/*   Created: 2025/05/21 09:05:44 by epakdama          #+#    #+#             */
+/*   Updated: 2025/05/21 09:11:22 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
-void	ft_lstadd_back(t_list **lst, t_list *new)
+int	main(void)
 {
-	t_list	*temp;
+	t_list	*head;
+	int		i;
+	int		len;
+	void	*cnt;
 
-	temp = *lst;
-	if (!temp)
+	head = malloc(sizeof(t_list));
+	cnt = malloc(10);
+	strcpy((char *)cnt, "Hello");
+	i = 0;
+	len = 5;
+	while (++i < len)
+		ft_lstadd_front(&head, ft_lstnew(cnt));
+	if (ft_lstsize(head) == len)
 	{
-		*lst = new;
-		return ;
+		printf("Test Passed: %d\n", ft_lstsize(head));
+		return (0);
 	}
-	while (temp->next)
-		temp = temp->next;
-	temp->next = new;
+	printf("Test Failed: %d\n", ft_lstsize(head));
+	return (1);
 }

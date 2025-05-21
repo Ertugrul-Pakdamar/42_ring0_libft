@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/20 14:10:50 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/20 14:12:52 by epakdama         ###   ########.fr       */
+/*   Created: 2025/05/21 09:11:55 by epakdama          #+#    #+#             */
+/*   Updated: 2025/05/21 09:13:01 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,9 @@
 
 t_list	*ft_lstlast(t_list *lst)
 {
-	t_list	*list;
-
 	if (!lst)
-		return (lst);
-	list = lst;
-	while ((*list).next)
-	{
-		list = (*list).next;
-	}
-	return (list);
+		return (NULL);
+	while (lst->next)
+		lst = lst->next;
+	return (lst);
 }
