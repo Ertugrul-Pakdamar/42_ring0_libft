@@ -29,9 +29,9 @@ re: fclean all
 #	bash ../Libftest/grademe.sh -p2 -b
 #testp2: re
 #	bash ../Libftest/grademe.sh -p1 -b
-so:
-	cc -nostartfiles -fPIC -Wall -Wextra -Werror $(SRC) $(BONUS) -Iincludes
-	gcc -nostartfiles -shared -o libft.so $(OBJS) $(BONUS_OBJS)
+#so:
+#	cc -nostartfiles -fPIC -Wall -Wextra -Werror $(SRC) $(BONUS) -Iincludes
+#	gcc -nostartfiles -shared -o libft.so $(OBJS) $(BONUS_OBJS)
 # -------------------------------------------
 
 .PHONY: all bonus clean fclean re
