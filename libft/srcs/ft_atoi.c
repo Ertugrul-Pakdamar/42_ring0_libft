@@ -6,7 +6,7 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 11:26:09 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/20 10:14:39 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/27 12:00:34 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	ft_atoi(char *str)
 	while (str[index] == ' ' || (str[index] >= 9 && str[index] <= 13))
 		index++;
 	if (str[index] == '-')
-		symbol *= -1;
+		symbol = -1;
 	if (str[index] == '+' || str[index] == '-')
 		index++;
 	while (str[index] >= '0' && str[index] <= '9')

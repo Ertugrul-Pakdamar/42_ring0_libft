@@ -6,7 +6,7 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 08:43:06 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/20 10:15:45 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/27 11:43:11 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	*ft_memset(void *s, int c, size_t n)
 	index = 0;
 	while (index < n)
 	{
-		ptr[index] = (char)c;
+		ptr[index] = c;
 		index++;
 	}
 	return (ptr);

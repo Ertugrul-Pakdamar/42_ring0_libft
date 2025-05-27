@@ -6,7 +6,7 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/14 10:25:23 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/20 10:15:23 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/27 11:49:16 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	*ft_memchr(void *s, int c, size_t n)
 	index = 0;
 	while (index < n)
 	{
-		if (src[index] == (char)c)
+		if (src[index] == c)
 			return (&src[index]);
 		index++;
 	}

@@ -9,10 +9,10 @@ BONUS_OBJS = ft_lstnew.o ft_lstadd_front.o ft_lstsize.o ft_lstlast.o ft_lstadd_b
 all: $(NAME)
 
 $(NAME):
-	gcc -Wall -Wextra -Werror -c $(SRCS) -Iincludes
+	cc -Wall -Wextra -Werror -c $(SRCS) -Iincludes
 	ar rc $(NAME) $(OBJS)
 bonus: 
-	gcc -Wall -Wextra -Werror -c $(SRCS) $(BONUS) -Iincludes
+	cc -Wall -Wextra -Werror -c $(SRCS) $(BONUS) -Iincludes
 	ar rc $(NAME) $(OBJS) $(BONUS_OBJS)
 
 clean:
@@ -24,7 +24,7 @@ re: fclean all
 # -------------------------------------------
 # For Tests
 #ft_%:
-#	gcc -Wall -Wextra -Werror $(SRC) $(BONUS) tests/$@_test.c -Iincludes
+#	cc -Wall -Wextra -Werror $(SRCS) $(BONUS) tests/$@_test.c -Iincludes
 #testp1: re
 #	bash ../Libftest/grademe.sh -p2 -b
 #testp2: re
