@@ -6,7 +6,7 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 11:41:28 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/20 10:14:49 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/27 17:47:23 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	void	*res;
 	size_t	index;
 
-	res = (char *)malloc(nmemb * size);
-	arr = (char *)res;
+	res = (void *)malloc(nmemb * size);
+	arr = (void *)res;
 	if (arr == NULL)
 		return (NULL);
 	index = 0;
