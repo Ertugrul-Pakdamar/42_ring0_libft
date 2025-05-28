@@ -76,8 +76,6 @@ Provides a simple implementation of singly linked list operations:
 - `ft_lstiter` — Applies a function to each node's content.
 - `ft_lstmap` — Creates a new list by applying a function to each node of the original list.
 
-Each function is thoroughly tested and written according to the Norme of 42 School. This library provides a solid foundation for building more complex C programs.
-
 ---
 
 ## 🧠 Project Objectives
