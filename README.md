@@ -16,6 +16,8 @@ The Libft project aims to deepen understanding of C programming by:
 
 ## 🧩 Implemented Functions
 
+All function names start with ft_, which stands for forty-two.
+
 ### 1. Standard C Library Functions
 
 Reimplementations of standard C functions:
