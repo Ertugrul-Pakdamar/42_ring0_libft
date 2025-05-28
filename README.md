@@ -16,65 +16,67 @@ The Libft project aims to deepen understanding of C programming by:
 
 ## 🧩 Implemented Functions
 
-All function names start with ft_, which stands for forty-two.
+This library is a reimplementation of selected functions from the standard C library, as well as additional utility functions frequently used in C programming. All function names are prefixed with `ft_` as per 42 coding standards.
 
-### 1. Standard C Library Functions
+### 1. 🛠 Standard C Library Functions
 
-Reimplementations of standard C functions:
+These are low-level memory and string manipulation functions commonly used in C:
 
-- `ft_memset`
-- `ft_bzero`
-- `ft_memcpy`
-- `ft_memmove`
-- `ft_strlcpy`
-- `ft_strlcat`
-- `ft_strlen`
-- `ft_strchr`
-- `ft_strrchr`
-- `ft_strncmp`
-- `ft_memchr`
-- `ft_memcmp`
-- `ft_strnstr`
-- `ft_atoi`
-- `ft_isalpha`
-- `ft_isdigit`
-- `ft_isalnum`
-- `ft_isascii`
-- `ft_isprint`
-- `ft_toupper`
-- `ft_tolower`
-- `ft_calloc`
-- `ft_strdup`
+- `ft_memset` — Fills a block of memory with a specific byte value.
+- `ft_bzero` — Sets a block of memory to zero.
+- `ft_memcpy` — Copies bytes from one memory area to another (no overlap allowed).
+- `ft_memmove` — Like `memcpy`, but safely handles overlapping memory regions.
+- `ft_strlcpy` — Copies a string to a buffer, ensuring null-termination.
+- `ft_strlcat` — Concatenates strings, ensuring buffer size limits are respected.
+- `ft_strlen` — Returns the length of a string.
+- `ft_strchr` — Finds the first occurrence of a character in a string.
+- `ft_strrchr` — Finds the last occurrence of a character in a string.
+- `ft_strncmp` — Compares two strings up to a given number of characters.
+- `ft_memchr` — Locates a byte in a block of memory.
+- `ft_memcmp` — Compares two blocks of memory byte by byte.
+- `ft_strnstr` — Searches for a substring within a string, up to a specified length.
+- `ft_atoi` — Converts a string to an integer.
+- `ft_isalpha` — Checks if a character is an alphabetic letter.
+- `ft_isdigit` — Checks if a character is a decimal digit.
+- `ft_isalnum` — Checks if a character is alphanumeric.
+- `ft_isascii` — Checks if a character is part of the ASCII set.
+- `ft_isprint` — Checks if a character is printable.
+- `ft_toupper` — Converts a lowercase letter to uppercase.
+- `ft_tolower` — Converts an uppercase letter to lowercase.
+- `ft_calloc` — Allocates and zero-initializes memory.
+- `ft_strdup` — Duplicates a string by allocating memory.
 
-### 2. Additional Utility Functions
+### 2. 🧰 Additional Utility Functions
 
-Functions useful for future projects:
+Useful for string manipulation, number conversion, and file descriptor output:
 
-- `ft_substr`
-- `ft_strjoin`
-- `ft_strtrim`
-- `ft_split`
-- `ft_itoa`
-- `ft_strmapi`
-- `ft_striteri`
-- `ft_putchar_fd`
-- `ft_putstr_fd`
-- `ft_putendl_fd`
-- `ft_putnbr_fd`
+- `ft_substr` — Extracts a substring from a given string.
+- `ft_strjoin` — Concatenates two strings into a new one.
+- `ft_strtrim` — Removes specified characters from the beginning and end of a string.
+- `ft_split` — Splits a string into an array of substrings based on a delimiter.
+- `ft_itoa` — Converts an integer into a string.
+- `ft_strmapi` — Applies a function to each character of a string (with index) to create a new string.
+- `ft_striteri` — Similar to `ft_strmapi`, but modifies the original string in-place.
+- `ft_putchar_fd` — Writes a character to the given file descriptor.
+- `ft_putstr_fd` — Writes a string to the given file descriptor.
+- `ft_putendl_fd` — Writes a string followed by a newline to the given file descriptor.
+- `ft_putnbr_fd` — Writes an integer to the given file descriptor.
 
-### 3. Bonus Functions
+### 3. 🧱 Bonus: Linked List Functions
 
-Linked list operations:
+Provides a simple implementation of singly linked list operations:
 
-- `ft_lstnew`
-- `ft_lstadd_front`
-- `ft_lstsize`
-- `ft_lstlast`
-- `ft_lstadd_back`
-- `ft_lstdelone`
-- `ft_lstclear`
-- `ft_lstiter`
-- `ft_lstmap`
+- `ft_lstnew` — Creates a new list node.
+- `ft_lstadd_front` — Adds a node at the beginning of the list.
+- `ft_lstsize` — Returns the number of nodes in the list.
+- `ft_lstlast` — Retrieves the last node of the list.
+- `ft_lstadd_back` — Adds a node at the end of the list.
+- `ft_lstdelone` — Deletes a single node and frees its memory.
+- `ft_lstclear` — Deletes and frees all nodes in the list.
+- `ft_lstiter` — Applies a function to each node's content.
+- `ft_lstmap` — Creates a new list by applying a function to each node of the original list.
+
+Each function is thoroughly tested and written according to the Norme of 42 School. This library provides a solid foundation for building more complex C programs.
 
 ---
 
