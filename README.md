@@ -99,3 +99,14 @@ The **Libft** project is a fundamental step in the 42 curriculum, fostering a so
 
 ---
 
+## 🏃 Compile The Project
+
+Run following bash codes for create **libft.a** archived library file
+
+'''bash
+git clone git@github.com:Ertugrul-Pakdamar/42_ring0_libft.git
+cd 42_ring0_libft
+make re
+'''
+
+---

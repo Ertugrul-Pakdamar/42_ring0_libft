@@ -18,7 +18,7 @@ bonus:
 clean:
 	rm -f  $(OBJS) $(BONUS_OBJS)
 fclean: clean
-	rm -f $(NAME) a.out libft.so
+	rm -f $(NAME)
 re: fclean all
 
 .PHONY: all bonus clean fclean re
