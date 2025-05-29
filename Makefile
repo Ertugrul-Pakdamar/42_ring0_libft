@@ -12,15 +12,15 @@ all: $(NAME)
 
 $(NAME):
 	$(CC) $(CFLAGS) $(SRCS) -Iincludes
-	ar rc $(NAME) $(OBJS)
+	ar rcs $(NAME) $(OBJS)
 bonus: 
 	$(CC) $(CFLAGS) $(SRCS) $(BONUS) -Iincludes
-	ar rc $(NAME) $(OBJS) $(BONUS_OBJS)
+	ar rcs $(NAME) $(OBJS) $(BONUS_OBJS)
 
 clean:
 	rm -f $(OBJS) $(BONUS_OBJS)
 fclean: clean
-	rm -f $(NAME) a.out
+	rm -f $(NAME)
 re: fclean all
 
 .PHONY: all bonus clean fclean re

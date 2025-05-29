@@ -6,11 +6,9 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 11:26:09 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/27 12:00:34 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/29 17:25:03 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_atoi(char *str)
 {

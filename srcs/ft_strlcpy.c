@@ -6,11 +6,9 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 09:29:33 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/20 10:16:35 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/29 17:26:50 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_strlcpy(char *dest, char *src, unsigned int size)
 {

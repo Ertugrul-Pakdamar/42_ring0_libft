@@ -6,11 +6,9 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 10:10:22 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/20 10:16:49 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/29 17:27:05 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {

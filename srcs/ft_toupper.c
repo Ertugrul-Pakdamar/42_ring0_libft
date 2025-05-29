@@ -6,11 +6,9 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 09:36:52 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/20 10:17:20 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/29 17:27:56 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 char	ft_toupper(char c)
 {
