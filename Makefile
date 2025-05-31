@@ -11,10 +11,10 @@ BONUS_OBJS = ft_lstnew.o ft_lstadd_front.o ft_lstsize.o ft_lstlast.o ft_lstadd_b
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	ar rc $(NAME) $(OBJS)
+	ar rcs $(NAME) $(OBJS)
 bonus: 
 	$(CC) $(CFLAGS) $(SRCS) $(BONUS) -Iincludes
-	ar rc $(NAME) $(OBJS) $(BONUS_OBJS)
+	ar rcs $(NAME) $(OBJS) $(BONUS_OBJS)
 
 $(OBJS): $(SRCS)
 	$(CC) $(CFLAGS) $(SRCS) -Iincludes

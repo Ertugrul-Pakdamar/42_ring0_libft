@@ -6,7 +6,7 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 11:41:28 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/31 11:38:22 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/05/31 13:11:09 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	res = (void *)malloc(nmemb * size);
 	if (res == NULL)
 		return (NULL);
-	// FIXME:	(nmemb) yeterli mi yoksa böyle mi kalsın öğren
 	ft_bzero(res, nmemb * size);
 	return (res);
 }
