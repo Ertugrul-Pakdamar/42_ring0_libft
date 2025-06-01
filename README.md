@@ -51,6 +51,17 @@ The Libft project aims to deepen understanding of C programming by:
 
 ---
 
+## 🏃 Compile the Project
+
+Run the following Bash commands to create the libft.a archive library file:
+```bash
+git clone git@github.com:Ertugrul-Pakdamar/42_ring0_libft.git
+cd 42_ring0_libft
+make
+```
+
+---
+
 ## 🧩 Implemented Functions
 
 This library is a reimplementation of selected functions from the standard C library, as well as additional utility functions frequently used in C programming. All function names are prefixed with `ft_` as per 42 coding standards.
@@ -136,15 +147,5 @@ Provides a simple implementation of singly linked list operations:
 
 The **Libft** project is a fundamental step in the 42 curriculum, fostering a solid understanding of C programming and software development principles. Completing this library will provide a valuable resource for tackling more complex projects ahead.
 
----
-
-## 🏃 Compile the Project
-
-Run the following Bash commands to create the libft.a archive library file:
-```bash
-git clone git@github.com:Ertugrul-Pakdamar/42_ring0_libft.git
-cd 42_ring0_libft
-make
-```
 
 ---
