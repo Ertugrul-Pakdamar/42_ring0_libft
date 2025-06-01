@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="150" src="https://github.com/Ertugrul-Pakdamar/Ertugrul-Pakdamar/blob/main/img/libft-banner.png"  />
+  <img height="150" src="https://media.licdn.com/dms/image/v2/D5622AQFCq1AJnlUwEQ/feedshare-shrink_800/B56ZY0G8rnHoAg-/0/1744630961206?e=1751500800&v=beta&t=2H5n_kPxSjzw9sRj7KOfhVJ1I7I8QCxZHtkNnxfWB0g"  />
 </div>
 
 ###
