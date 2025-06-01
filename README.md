@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+  <img height="150" src="https://www.linkedin.com/posts/allan-rabelo_my-journey-with-the-libft-project-at-42-activity-7317512629797732355-rRMA"  />
 </div>
 
 ###
