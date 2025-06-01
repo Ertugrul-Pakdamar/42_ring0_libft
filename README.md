@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="150" src="https://www.linkedin.com/posts/allan-rabelo_my-journey-with-the-libft-project-at-42-activity-7317512629797732355-rRMA"  />
+  <img height="150" src="https://media.licdn.com/dms/image/v2/D5622AQFCq1AJnlUwEQ/feedshare-shrink_800/B56ZY0G8rnHoAg-/0/1744630961206?e=1751500800&v=beta&t=2H5n_kPxSjzw9sRj7KOfhVJ1I7I8QCxZHtkNnxfWB0g"  />
 </div>
 
 ###
