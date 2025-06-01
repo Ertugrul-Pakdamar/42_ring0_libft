@@ -6,13 +6,13 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/14 10:48:15 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/29 17:29:12 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/01 14:54:25 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_memcmp(void *s1, void *s2, size_t n)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	unsigned char	*str1;
 	unsigned char	*str2;

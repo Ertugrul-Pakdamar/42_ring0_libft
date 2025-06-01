@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 09:36:52 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/29 17:27:56 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/01 14:23:18 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	ft_toupper(char c)
+int	ft_toupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (c - 32);

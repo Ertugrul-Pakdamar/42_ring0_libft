@@ -6,13 +6,15 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 10:10:22 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/29 17:27:05 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/01 14:34:43 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strncmp(char *s1, char *s2, unsigned int n)
+#include "libft.h"
+
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	unsigned int	index;
+	size_t	index;
 
 	if (n == 0)
 		return (0);

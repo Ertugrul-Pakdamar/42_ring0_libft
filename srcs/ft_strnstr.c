@@ -6,15 +6,15 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 11:07:24 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/29 17:27:16 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/01 14:53:13 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	is_match(char *str, char *to_find, int match_index)
+static int	is_match(const char *str, const char *to_find, size_t match_index)
 {
-	int	index;
+	size_t	index;
 
 	index = 0;
 	while (to_find[index])
@@ -26,10 +26,10 @@ static int	is_match(char *str, char *to_find, int match_index)
 	return (1);
 }
 
-char	*ft_strnstr(char *str, char *to_find, int len)
+char	*ft_strnstr(const char *str, const char *to_find, size_t len)
 {
-	int	index;
-	int	size;
+	size_t	index;
+	size_t	size;
 
 	if (str == NULL && len == 0)
 		return (NULL);
@@ -37,14 +37,14 @@ char	*ft_strnstr(char *str, char *to_find, int len)
 	while (to_find[size])
 		size++;
 	if (to_find[0] == '\0')
-		return (str);
+		return ((char *)str);
 	index = 0;
 	while (str[index] && index < len)
 	{
 		if (str[index] == to_find[0])
 		{
 			if (is_match(str, to_find, index) && index + size <= len)
-				return (&str[index]);
+				return (&((char *)str)[index]);
 		}
 		index++;
 	}

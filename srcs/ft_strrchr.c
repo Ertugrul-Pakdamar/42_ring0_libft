@@ -6,13 +6,13 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 10:02:11 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/27 12:06:21 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/01 14:53:43 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strrchr(char *s, int c)
+char	*ft_strrchr(const char *s, int c)
 {
 	int	index;
 
@@ -20,7 +20,7 @@ char	*ft_strrchr(char *s, int c)
 	while (index >= 0)
 	{
 		if (s[index] == c)
-			return (&s[index]);
+			return (&((char *)s)[index]);
 		index--;
 	}
 	return (NULL);

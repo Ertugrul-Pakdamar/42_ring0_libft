@@ -6,24 +6,26 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 09:41:57 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/27 12:00:59 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/01 14:41:37 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(char *s, int c)
+char	*ft_strchr(const char *s, int c)
 {
-	int	index;
+	int		index;
+	char	*src;
 
+	src = (char *)s;
 	index = 0;
-	while (s[index])
+	while (src[index])
 	{
-		if (s[index] == c)
-			return (&s[index]);
+		if (src[index] == c)
+			return (&src[index]);
 		index++;
 	}
 	if (c == '\0')
-		return (&s[index]);
+		return (&src[index]);
 	return (NULL);
 }

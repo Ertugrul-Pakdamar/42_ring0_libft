@@ -6,11 +6,11 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 08:57:43 by epakdama          #+#    #+#             */
-/*   Updated: 2025/05/29 17:25:19 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/01 14:19:13 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalnum(char c)
+int	ft_isalnum(int c)
 {
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c >= '0'
 			&& c <= '9'))
