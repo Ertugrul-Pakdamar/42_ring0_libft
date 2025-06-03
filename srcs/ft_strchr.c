@@ -6,7 +6,7 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 09:41:57 by epakdama          #+#    #+#             */
-/*   Updated: 2025/06/01 14:41:37 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/03 11:02:12 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,11 @@ char	*ft_strchr(const char *s, int c)
 	index = 0;
 	while (src[index])
 	{
-		if (src[index] == c)
+		if (src[index] == (char)c)
 			return (&src[index]);
 		index++;
 	}
-	if (c == '\0')
+	if ((char)c == '\0')
 		return (&src[index]);
 	return (NULL);
 }

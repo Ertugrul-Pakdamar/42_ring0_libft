@@ -6,7 +6,7 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/16 08:46:59 by epakdama          #+#    #+#             */
-/*   Updated: 2025/06/02 11:22:43 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/03 11:34:46 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,11 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 
 	if (s == NULL)
 		return (NULL);
-	s_len = ft_strlen(s);
+	s_len = ft_strlen((char *)s);
 	if (len > s_len - start)
 		len = s_len - start;
+	if (start > s_len)
+		len = 0;
 	res = (char *)malloc(len + 1);
 	if (res == NULL)
 		return (NULL);
