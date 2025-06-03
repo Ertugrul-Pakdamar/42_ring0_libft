@@ -6,7 +6,7 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 11:38:52 by epakdama          #+#    #+#             */
-/*   Updated: 2025/06/01 14:32:23 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/03 09:41:39 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	*ft_memmove(const void *dest, const void *src, size_t n)
 {
-	char			*d;
-	char			*s;
+	unsigned char	*d;
+	unsigned char	*s;
 	unsigned int	index;
 
 	d = (char *)dest;

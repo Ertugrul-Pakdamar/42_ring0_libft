@@ -6,7 +6,7 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 08:43:06 by epakdama          #+#    #+#             */
-/*   Updated: 2025/06/01 14:40:36 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/03 09:45:58 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	*ft_memset(const void *s, int c, size_t n)
 {
-	char	*ptr;
-	size_t	index;
+	unsigned char	*ptr;
+	size_t			index;
 
 	ptr = (char *)s;
 	index = 0;
