@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: epakdama <epakdama@student.42.fr>          +#+  +:+       +#+        */
+/*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 11:38:52 by epakdama          #+#    #+#             */
-/*   Updated: 2025/06/03 10:32:04 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/03 16:38:21 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ void	*ft_memmove(const void *dest, const void *src, size_t n)
 	}
 	else
 	{
-		while (n-- > 0)
+		while (--n > 0)
 			d[n] = s[n];
 	}
 	return (d);
