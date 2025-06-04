@@ -6,7 +6,7 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 09:34:33 by epakdama          #+#    #+#             */
-/*   Updated: 2025/06/01 14:54:14 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/04 08:04:46 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ static void	ft_len_calc(size_t *result, size_t index1, size_t size)
 		*result += index1;
 }
 
-size_t	ft_strlcat(const char *dest, const char *src, size_t size)
+size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {
 	size_t	index1;
 	size_t	index2;

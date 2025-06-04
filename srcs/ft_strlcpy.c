@@ -6,13 +6,13 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 09:29:33 by epakdama          #+#    #+#             */
-/*   Updated: 2025/06/01 14:51:52 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/04 08:04:31 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcpy(const char *dest, const char *src, size_t size)
+size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {
 	size_t	index;
 	size_t	len;
