@@ -6,7 +6,7 @@
 /*   By: epakdama <epakdama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/21 11:07:36 by epakdama          #+#    #+#             */
-/*   Updated: 2025/06/04 07:48:14 by epakdama         ###   ########.fr       */
+/*   Updated: 2025/06/04 11:20:36 by epakdama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,13 +16,16 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*temp;
 	t_list	*head;
+	void	*tmp;
 
 	head = 0;
 	while (lst)
 	{
-		temp = ft_lstnew(f(lst->content));
+		tmp = f(lst->content);
+		temp = ft_lstnew(tmp);
 		if (!temp)
 		{
+			del(tmp);
 			ft_lstclear(&head, del);
 			return (NULL);
 		}
