@@ -19,7 +19,7 @@
 
 ###
 
-> 🚧 **Status:** In Progress
+> 🚧 **Status:** Completed
 
 This repository contains my implementation of the **Libft** project, the first assignment in the 42 Türkiye's Common Core curriculum. The objective is to recreate standard C library functions and develop additional utility functions to form a personal C library for use in future projects.
 
